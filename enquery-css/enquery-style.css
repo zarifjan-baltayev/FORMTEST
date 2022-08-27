@@ -95,6 +95,11 @@ h1{
   margin: 0px;
   text-align: center;
 }
+h1.note{
+  margin-bottom: 5rem;
+  font-size: 30px;
+  font-weight: 400;
+}
 
 label{
   display: block;
@@ -150,7 +155,18 @@ textarea::-webkit-scrollbar-thumb {
   color: var(--success);
 }
 
-
+a.center {
+  border: 0.5rem solid var(--danger);
+  margin-top: 10rem;
+  width: 100%;
+  height: 15rem;
+  background: var(--danger);
+  color: var(--white);
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+ }
 
 
 
