@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" type="x-icon" href="enquery-css/icon.jpeg" />
+    <link rel="stylesheet" href="enquery-css/enquery-style.css" />
+    <title>Enquery Form</title>
+  </head>
+  <body>
+    <header id="home" class="main-header">
+      <div class="navbar">
+        <nav>
+          <img class="logo" src="enquery-css/LOGO.jpeg" alt="" />
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#gallery">Contact</a></li>
+            <li><a href="../index.html#about">About Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="form">
+        <div id="overlay">
+          <form action="https://formsubmit.co/7433050aafc3b6746dd71a1d532f5ef6" method="POST">
+            <h1>Contact Form</h1>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="Full Name" required />
+            <small class="error"></small>
+
+            <label for="name">Email</label>
+            <input type="text" id="email" name="Email" placeholder="Your Email" required />
+            <small class="error"></small>
+
+            <label for="name">Message:</label>
+            <textarea id="message" name="Message" placeholder="Your Message" rows="6" required></textarea>
+            <small class="error"></small>
+            <div class="center">
+              <button class="center" type="submit">Send</button>
+            </div>
+            <!-- <div class="center">
+              <input type="submit" value="Send Message" />
+              <p id="success"></p>
+            </div> -->
+
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-light">
+      <div class="social">
+        <h4 href="#"><i class="fab fa-whatsapp"></i> +49 176 83375652</h4>
+        <!-- <a href="#"><i class="fab fa-instagram fa-2x"></i></a> -->
+      </div>
+      <p>Copyright &copy 2022 | EducationIsFuture. All rights reserved.</p>
+    </footer>
+      <script src="enquery-css/enquery-script.js"></script>
+    </body>
+</html>
