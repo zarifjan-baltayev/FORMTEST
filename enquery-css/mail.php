@@ -24,7 +24,7 @@ echo'<!DOCTYPE html>
       referrerpolicy="no-referrer"
     />
     <link rel="shortcut icon" type="x-icon" href="enquery-css/icon.jpeg" />
-    <link rel="stylesheet" href="enquery-css/enquery-style.css" />
+    <link rel="stylesheet" href="enquery-style.css" />
     <title>Enquery Form</title>
   </head>
   <body>
@@ -44,7 +44,7 @@ echo'<!DOCTYPE html>
     <main>
       <section id="form">
         <div id="overlay">
-          <form action="enquery-css/mail.php" method="POST">
+          <form>
             <h1 class="note">Thank you for contacting us. <br> We will get back to you as soon as possible!</h1>
 
             <div class="center note" >
