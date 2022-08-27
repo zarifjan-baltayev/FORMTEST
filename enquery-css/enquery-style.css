@@ -92,6 +92,7 @@ form{
 }
 
 h1{
+  font-size: 35px;
   margin: 0px;
   text-align: center;
 }
@@ -130,12 +131,12 @@ textarea::-webkit-scrollbar-thumb {
 .center {
   text-align: center;
 }
- button {
+ input.center {
+  
   border: 0.5rem solid var(--danger);
   margin-top: 3rem;
   width: 100%;
   height: 4rem;
-  max-width: 20rem;
   background: var(--danger);
   color: var(--white);
   font-size: 1.5rem;

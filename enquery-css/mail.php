@@ -2,15 +2,18 @@
 
 $name = $_POST['name'];
 $email = $_POST['email'];
+$subject = $_POST['subject'];
 $message = $_POST['message'];
 
 $mailheader = "From:".$name."<".$email.">\r\n";
 
 $recipient = "educationisfuture.best@gmail.com";
 
-mail($recipient, $message, $mailheader) or die("Error!");
+mail($recipient, $subject, $message, $mailheader) or die("Error!");
 
-echo'<!DOCTYPE html>
+echo'
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -50,10 +53,7 @@ echo'<!DOCTYPE html>
             <div class="center note" >
               <a href="index.html" class="center">Home Page</a>
             </div>
-            <!-- <div class="center">
-              <input type="submit" value="Send Message" />
-              <p id="success"></p>
-            </div> -->
+           
 
           </form>
         </div>
